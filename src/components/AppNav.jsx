@@ -1,7 +1,7 @@
 import styles from './AppNav.module.css';
 
 const AppNav = () => {
-  return <nav className={styles.nav}>AppNav</nav>;
+  return <nav>App Nav</nav>;
 };
 
 export default AppNav;

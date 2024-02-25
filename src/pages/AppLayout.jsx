@@ -1,13 +1,10 @@
-import React from 'react';
-import AppNav from '../components/AppNav';
-import PageNav from '../components/PAgeNav';
+import PageNav from '../components/PagNav';
+import styles from './AppLayout.module.css';
 
 const AppLayout = () => {
   return (
-    <div>
+    <div className={styles.app}>
       <PageNav />
-      <AppNav />
-      <p>App layout</p>
     </div>
   );
 };
