@@ -7,7 +7,7 @@ import AppLayout from './pages/AppLayout';
 import Login from './pages/Login';
 // import CountryItem from './components/CountryItem';
 import Form from './components/Form';
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import CityList from './components/CityList';
 import CountriesList from './components/CountriesList';
 import City from './components/City';
